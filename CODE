@@ -41,9 +41,9 @@ int main(){
         printf("YES\n");
         if(d==0)
             printf("Right\n");
-        if(d>0)
+        else if(d>0)
             printf("Acute\n");
-        if(d<0)
+        else
             printf("Obtuse\n");
     }
     
